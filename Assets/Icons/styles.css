@@ -62,3 +62,15 @@
 .icon-error:before {
   content: "\68";
 }
+.icon-menu:before {
+  content: "\69";
+}
+.icon-cart:before {
+  content: "\6a";
+}
+.icon-user:before {
+  content: "\6b";
+}
+.icon-mail:before {
+  content: "\6c";
+}
