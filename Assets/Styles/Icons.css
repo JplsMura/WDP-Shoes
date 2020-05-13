@@ -40,7 +40,7 @@
     margin-right: .4em;
 }
 
-.icon-notext{
+.icon-notext:before{
     top: 0;
     margin-right: 0;
 }
@@ -77,7 +77,7 @@
 .icon-cart:before {
     content: "\6a";
 }
-.icon-user:before {
+.icon-users:before {
     content: "\6b";
 }
 .icon-mail:before {

@@ -24,16 +24,16 @@
     -red_l:     #f76c82;
 }
 
-a {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--blue);
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*    font-weight: 700;*/
+/*    color: var(--blue);*/
+/*}*/
 
-a:hover{
-    text-decoration: underline;
-    color: var(--blue_h);
-}
+/*a:hover{*/
+/*    text-decoration: underline;*/
+/*    color: var(--blue_h);*/
+/*}*/
 
 img {
     max-width: 100%;
@@ -49,6 +49,10 @@ iframe,
 iframe[style] {
     max-width: 100%;
     height: auto;
+}
+
+ul{
+    list-style: none;
 }
 
 /*CONTAINERS*/
