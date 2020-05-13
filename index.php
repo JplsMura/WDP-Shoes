@@ -18,17 +18,23 @@
 <header class="main_header">
     <div class="container">
         <div class="main_header_nav">
+
+            <!--            NAV_LOGO-->
             <div class="main_header_nav_logo">
                 <a href="" title="WdpShoes | Home">
                     <img alt="" title="" src="Themes/WdpShoes/Images/wdpshoes_logo_white.png"/>
                 </a>
             </div>
+
+            <!--            SEARCH NAV-->
             <div class="main_header_nav_search">
                 <form action="" method="post" class="radius">
                     <input type="text" name="s" placeholder="Pesquisar na WdpShoes:"/>
                     <button class="icon-search icon-notext transition"></button>
                 </form>
             </div>
+
+            <!--            MENU USER E CARRINHO-->
             <div class="main_header_nav_menu">
                 <a href="#" class="icon-cart icon-notext transition main_header_nav_menu_cart"><span>3</span></a>
                 <div class="main_header_nav_menu_user">
@@ -41,6 +47,7 @@
                     </nav>
                 </div>
             </div>
+
         </div>
 
         <ul class="main_header_departments">

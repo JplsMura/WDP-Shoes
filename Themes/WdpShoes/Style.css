@@ -272,7 +272,7 @@
     background: var(--themeColorA_h);
 }
 
-/*MENUS FOOTER*/
+/*SUBMENUS FOOTTER*/
 .main_footer_nav h4{
     color: #888;
     font-size: 1em;
@@ -295,9 +295,13 @@
     text-decoration: underline;
 }
 
-/*FOOTER BOTTOM COPY*/
+/*COPY_BOTTOM*/
 .main_footer_bottom{
     background: #eee;
+}
+
+.main_footer_bottom .container{
+    align-items: center;
 }
 
 .main_footer_bottom_copy{
@@ -306,12 +310,13 @@
     color: #555;
 }
 
-.main_footer_bottom img{
+.main_footer_bottom_copy img{
     width: 200px;
     max-width: 100%;
     margin-bottom: 10px;
 }
 
+/*LINK REDES SOCIAIS*/
 .main_footer_bottom_social{
     flex-basis: 50%;
     text-align: right;
