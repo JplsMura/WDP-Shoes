@@ -32,7 +32,7 @@
             <div class="main_header_nav_menu">
                 <a href="#" class="icon-cart icon-notext transition main_header_nav_menu_cart"><span>3</span></a>
                 <div class="main_header_nav_menu_user">
-                    <a href="#" title="" class="icon-user main_header_nav_menu_user_a radius transition">Minha Conta</a>
+                    <a href="#" title="" class="icon-users main_header_nav_menu_user_a radius transition">Minha Conta</a>
                     <nav class="radius">
                         <a href="#" title="">Meus pedidos</a>
                         <a href="#" title="">Meus dados</a>
@@ -82,13 +82,13 @@
 
         <!--        FORM DESCONTO-->
         <article class="main_footer_optin">
-            <header class="main_foot_optin_header">
+            <header class="main_footer_optin_header">
                 <h3>Quer 20% de desconto?</h3>
                 <p>Informe seu melhor e-mail logo abaixo e receba um cupom com 20% de desconto para sua primeira compra!</p>
             </header>
             <form action="" method="post" class="main_footer_optin_form">
-                <input type="email" name="email" placeholder="Informer seu e-mail:"/>
-                <button class="btn radius transition icon-mail">Quero meu desconto!</button>
+                <input class="radius" type="email" name="email" placeholder="Informer seu e-mail:"/>
+                <button class="btn radius transition icon-mail">Quero meu desconto !</button>
             </form>
         </article>
 
@@ -142,15 +142,15 @@
 
             <!--            ICONES DE REDES SOCIAIS-->
             <nav class="main_footer_bottom_social">
-                <a href="#" title="" class="icon-facebook icon-notext"></a>
-                <a href="#" title="" class="icon-instagram icon-notext"></a>
-                <a href="#" title="" class="icon-youtube icon-notext"></a>
+                <a href="#" title="" class="icon-facebook icon-notext transition"></a>
+                <a href="#" title="" class="icon-instagram icon-notext transition"></a>
+                <a href="#" title="" class="icon-youtube icon-notext transition"></a>
             </nav>
 
         </div>
 
     </div>
-    
+
 </footer>
 
 <script src="Assets/jquery.js"></script>
