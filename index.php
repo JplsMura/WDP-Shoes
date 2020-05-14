@@ -103,40 +103,35 @@
                         <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
 
                         <header class="pdt_gallery_item_desc">
-                            <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                            <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" alt="" title="">Calça Confort Mama Latina</a></h2>
                             <div class="pdt_gallery_item_desc_price">
                                 <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
                             </div>
                             <p>2x R$ 29,95</p>
                         </header>
-
                     </article>
                 </div>
 
                 <div class="pdt_gallery_list flex">
                     <?php
-
                     $pdt = 0;
-
                     for($pdt = 1; $pdt < 5; $pdt++){
                         ?>
                         <article class="pdt_gallery_item flex-2">
-                            <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
+                            <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg"/></a>
 
                             <header class="pdt_gallery_item_desc">
-                                <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                                <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" alt="" title="">Calça Confort Mama Latina</a></h2>
                                 <div class="pdt_gallery_item_desc_price">
                                     <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
                                 </div>
                                 <p>2x R$ 29,95</p>
                             </header>
-
                         </article>
                         <?php
                     }
                     ?>
                 </div>
-
             </div>
             
             <div class="pdt_gallery_normalize">
@@ -146,27 +141,24 @@
             <div class="pdt_gallery_normalize flex">
                 <?php
                 $pdt = 0;
-                for($pdt = 1; $pdt < 5; $pdt++){
+                for($pdt = 5; $pdt < 9; $pdt++){
                     ?>
                     <article class="pdt_gallery_item flex-2">
-                        <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
+                        <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg"/></a>
 
                         <header class="pdt_gallery_item_desc">
-                            <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                            <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="#" alt="" title="">Calça Confort Mama Latina</a></h2>
                             <div class="pdt_gallery_item_desc_price">
                                 <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
                             </div>
                             <p>2x R$ 29,95</p>
                         </header>
-
                     </article>
                     <?php
                 }
                 ?>
             </div>
-
         </div>
-
     </section>
 </main>
 
@@ -218,9 +210,7 @@
                     <li class="flex-4"><img src="Assets/Cards/discover.png" alt="" title=""></li>
                 </ul>
             </nav>
-
         </div>
-
     </div>
 
     <div class="main_footer_bottom">
@@ -239,11 +229,8 @@
                 <a href="#" title="" class="icon-instagram icon-notext transition"></a>
                 <a href="#" title="" class="icon-youtube icon-notext transition"></a>
             </nav>
-
         </div>
-
     </div>
-
 </footer>
 
 <script src="Assets/jquery.js"></script>
