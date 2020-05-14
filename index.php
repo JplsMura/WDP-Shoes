@@ -73,6 +73,22 @@
 </header>
 
 <main class="main_content">
+
+    <!--    SLIDERS-->
+    <main class="main_content">
+
+        <div class="main_content_slide j_slide">
+<!--            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-01.jpg" alt="" title=""/></a>-->
+            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-02.jpg" alt="" title=""/></a>
+<!--            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-03.jpg" alt="" title=""/></a>-->
+        </div>
+
+        <div class="j_slide_nav">
+
+        </div>
+
+    </main>
+
     <section class="pdt_gallery">
         <div class="container">
             <header class="main_content_header">
@@ -80,7 +96,77 @@
                     Ofertas da Semana:
                 </h1>
             </header>
+            
+            <div class="flex">
+                <div class="pdt_gallery_list pdt_gallery_featured">
+                    <article class="pdt_gallery_item flex-2">
+                        <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
+
+                        <header class="pdt_gallery_item_desc">
+                            <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                            <div class="pdt_gallery_item_desc_price">
+                                <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
+                            </div>
+                            <p>2x R$ 29,95</p>
+                        </header>
+
+                    </article>
+                </div>
+
+                <div class="pdt_gallery_list flex">
+                    <?php
+
+                    $pdt = 0;
+
+                    for($pdt = 1; $pdt < 5; $pdt++){
+                        ?>
+                        <article class="pdt_gallery_item flex-2">
+                            <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
+
+                            <header class="pdt_gallery_item_desc">
+                                <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                                <div class="pdt_gallery_item_desc_price">
+                                    <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
+                                </div>
+                                <p>2x R$ 29,95</p>
+                            </header>
+
+                        </article>
+                        <?php
+                    }
+                    ?>
+                </div>
+
+            </div>
+            
+            <div class="pdt_gallery_normalize">
+                <img class="pdt_gallery_item pdt_gallery_banner" src="Uploads/featured-01.jpg" alt="">
+            </div>
+
+            <div class="pdt_gallery_normalize flex">
+                <?php
+                $pdt = 0;
+                for($pdt = 1; $pdt < 5; $pdt++){
+                    ?>
+                    <article class="pdt_gallery_item flex-2">
+                        <a href="#" alt="" title=""><img alt="" title="" src="Uploads/products/06.jpg"/></a>
+
+                        <header class="pdt_gallery_item_desc">
+                            <h2 class="pdt_gallery_item_desc_title">Calça Confort Mama Latina</h2>
+                            <div class="pdt_gallery_item_desc_price">
+                                <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
+                            </div>
+                            <p>2x R$ 29,95</p>
+                        </header>
+
+                    </article>
+                    <?php
+                }
+                ?>
+            </div>
+
         </div>
+
     </section>
 </main>
 
