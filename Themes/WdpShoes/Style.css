@@ -521,3 +521,10 @@
         margin: 10px;
     }
 }
+
+@media (max-width: 42em){
+    .main_footer_nav > .flex-4{
+        flex-basis: calc(50% - 40px);
+        margin: 20px;
+    }
+}
