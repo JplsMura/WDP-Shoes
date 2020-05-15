@@ -531,7 +531,8 @@
 
 @media(max-width: 32em){
     .pdt_gallery_banner,
-    .main_content_slide{
+    .main_content_slide,
+    .main_content .j_slide_nav{
         display: none;
     }
 
