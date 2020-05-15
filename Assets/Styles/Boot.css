@@ -363,3 +363,8 @@ ul{
 .j_tabs_item:first-child{
     display: block;
 }
+
+/*OVERFLOW TABLET*/
+.overflow {
+    overflow: hidden;
+}
