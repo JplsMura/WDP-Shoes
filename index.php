@@ -91,7 +91,7 @@
         </div>
 
     </main>
-
+    <div class="overflow">
     <section class="pdt_gallery">
         <div class="container">
             <header class="main_content_header">
@@ -250,34 +250,30 @@
         </div>
     </section>
 
-    <section class="blog_gallery">
-        <div class="container">
-            <header class="main_content_header">
-                <h1 class="main_content_header_title">Blog</h1>
-            </header>
+        <section class="blog_gallery">
+            <div class="container">
+                <header class="main_content_header">
+                    <h1 class="main_content_header_title">Blog</h1>
+                </header>
 
-            <div class="flex">
-                <?php
-                for($b=1; $b <7; $b++){
-                    ?>
-                    <article class="blog_gallery_item transition flex-3">
-                        <a href="#" title="" alt="">
-                            <img alt="" title="" src="Uploads/blog/<?= str_pad($b, 2, 0, STR_PAD_LEFT); ?>.jpg"/>
-                        </a>
-
-                        <header>
-                            <h2>
-                                <a class="transition" href="#" alt="" title="">Lorem Ipsum is simply dummy text of the printing and typesetting industry</a>
-                            </h2>
-                        </header>
-
-                    </article>
+                <div class="flex">
                     <?php
-                }
-                ?>
+                    for ($b = 1; $b < 7; $b++) {
+                        ?>
+                        <article class="blog_gallery_item transition flex-3">
+                            <a href="" title="">
+                                <img alt="" title="" src="Uploads/blog/<?= str_pad($b, 2, 0, STR_PAD_LEFT); ?>.jpg"/>
+                            </a>
+                            <header>
+                                <h2><a class="transition" title="" href="">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h2>
+                            </header>
+                        </article>
+                        <?php
+                    }
+                    ?>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 </main>
 
@@ -351,7 +347,7 @@
         </div>
     </div>
 </footer>
-
+</div>
 <script src="Assets/jquery.js"></script>
 <script src="Assets/scripts.js"></script>
 </body>
