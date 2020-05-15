@@ -471,3 +471,53 @@
     background: var(--themeColorA_h);
 }
 
+/*RESPONSIVIDADE*/
+@media (max-width: 52em) {
+    .main_header .container{
+        padding: 20px;
+    }
+
+    .main_header_nav{
+        flex-wrap: wrap;
+    }
+
+    .main_header_nav_search{
+        flex-basis: 100%;
+        padding: 0;
+        order: 1;
+        margin-top: 30px;
+    }
+
+    .main_header_nav_logo,
+    .main_header_nav_menu{
+        flex-basis: 50%;
+    }
+
+    .main_header_departments{
+        display: none;
+    }
+
+    .pdt_gallery_featured,
+    .pdt_gallery_list{
+        flex-basis: 100%;
+    }
+
+    .pdt_gallery_normalize .pdt_gallery_item{
+        flex-basis: calc(50% - 40px);
+        margin: 20px;
+    }
+
+    .blog_gallery .blog_gallery_item{
+        flex-basis: calc(50% - 40px);
+        margin: 20px;
+    }
+
+    .blog_gallery .blog_gallery_item:nth-child(n+5){
+        display: none;
+    }
+
+    .main_footer_nav_pays .flex-4{
+        flex-basis: calc(33.33% - 20px);
+        margin: 10px;
+    }
+}
