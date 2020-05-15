@@ -528,3 +528,54 @@
         margin: 20px;
     }
 }
+
+@media(max-width: 32em){
+    .pdt_gallery_banner,
+    .main_content_slide{
+        display: none;
+    }
+
+    .pdt_gallery .pdt_gallery_item{
+        flex-basis: 100%;
+        margin: 0 0 20px 0;
+        font-size: 1.3em;
+    }
+
+    .pdt_gallery_featured{
+        font-size: 1.1em;
+    }
+
+    .blog_gallery .blog_gallery_item{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+    .blog_gallery .blog_gallery_item:nth-child(n+3){
+        display: none;
+    }
+
+    .main_footer_optin{
+        font-size: 0.8em;
+    }
+
+    .main_footer_bottom{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main_footer_bottom_copy,
+    .main_footer_bottom_social{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .main_footer_bottom_copy img{
+        margin: 0 auto 10px auto;
+    }
+
+    .main_footer_bottom_social{
+        margin-top: 20px;
+        font-size: 1.8em;
+    }
+}
