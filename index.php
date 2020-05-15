@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="mit" content="2020-04-20T07:03:21-03:00+171174">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=0">
     <title>WdpShoes | Home</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
