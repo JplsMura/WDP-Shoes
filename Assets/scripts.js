@@ -54,6 +54,7 @@ $(function () {
     if ($(".j_tabs").length) {
         $(".j_tabs_nav:eq(0)").addClass("active");
         $(".j_tabs_nav").click(function () {
+            
             var jTab = $(this);
 
             $(".j_tabs_nav").removeClass("active");
