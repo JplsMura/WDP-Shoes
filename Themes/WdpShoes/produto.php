@@ -75,20 +75,17 @@
 
             <!--            CABECALHO-->
             <header class="main_content_header">
-                <h2 class="main_content_header_tile">
-                    Produtos Relacionados:
-                </h2>
+                <h2 class="main_content_header_title">Produtos relacionados:</h2>
             </header>
 
-            <!--            LISTA DE PRODUTOS-->
+            <!--            PRODUCT RELATED-->
             <div class="pdt_gallery pdt_gallery_normalize flex">
                 <?php
-                    for($pdt = 5; $pdt < 13; $pdt++){
-                        require "{$configThemePath}/Templates/product.php";
-                    }
+                for ($pdt = 5; $pdt < 13; $pdt++) {
+                    require "{$configThemePath}/Templates/product.php";
+                }
                 ?>
             </div>
-
         </div>
     </section>
 
