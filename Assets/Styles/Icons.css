@@ -59,27 +59,39 @@
 .icon-youtube:before {
     content: "\64";
 }
-.icon-sucess:before {
+.icon-error:before {
     content: "\65";
+}
+.icon-user:before {
+    content: "\67";
+}
+.icon-mail:before {
+    content: "\68";
+}
+.icon-minus:before {
+    content: "\69";
+}
+.icon-plus:before {
+    content: "\6a";
+}
+.icon-star-e:before {
+    content: "\6b";
+}
+.icon-cart:before {
+    content: "\6d";
+}
+.icon-info:before {
+    content: "\6c";
+}
+.icon-broken:before {
+    content: "\6e";
+}
+.icon-success:before {
+    content: "\6f";
 }
 .icon-alert:before {
     content: "\66";
 }
-.icon-info:before {
-    content: "\67";
-}
-.icon-error:before {
-    content: "\68";
-}
 .icon-menu:before {
-    content: "\69";
-}
-.icon-cart:before {
-    content: "\6a";
-}
-.icon-users:before {
-    content: "\6b";
-}
-.icon-mail:before {
-    content: "\6c";
+    content: "\70";
 }

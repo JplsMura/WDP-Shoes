@@ -21,7 +21,7 @@
             <div class="main_header_nav_menu">
                 <a href="#" class="icon-cart icon-notext transition main_header_nav_menu_cart"><span>3</span></a>
                 <div class="main_header_nav_menu_user">
-                    <a href="<?= "{$configBase}/conta"; ?>" title="" class="icon-users main_header_nav_menu_user_a radius transition">Minha Conta</a>
+                    <a href="<?= "{$configBase}/conta"; ?>" title="" class="icon-user main_header_nav_menu_user_a radius transition">Minha Conta</a>
                     <nav class="radius">
                         <a href="<?= "{$configBase}/conta/pedidos"; ?>" title="">Meus pedidos</a>
                         <a href="<?= "{$configBase}/conta/cadastro"; ?>" title="">Meus dados</a>
