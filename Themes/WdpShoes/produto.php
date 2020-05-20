@@ -68,4 +68,12 @@
             </div>
         </article>
     </div>
+
+    <!--    ANCHOR DESCRIPTION-->
+    <div class="main_product_description">
+        <div class="container">
+            ANCHOR!
+        </div>
+    </div>
+
 </main>

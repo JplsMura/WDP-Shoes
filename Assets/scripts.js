@@ -84,5 +84,12 @@ $(function () {
        }
     });
 
+    //J_ANCHOR
+    $(".j_anchor").click(function () {
+        var anchor = $($(this).attr("data-anchor"));
+
+        $("html, body").animate({scrollTop: anchor.offset().top}, 1000);
+    });
+
 });
 
