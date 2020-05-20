@@ -4,9 +4,9 @@
     <main class="main_content">
 
         <div class="main_content_slide j_slide">
-            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-01.jpg" alt="" title=""/></a>
-            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-02.jpg" alt="" title=""/></a>
-            <a href="#" class="j_slide_item" title=""><img src="Uploads/featured-03.jpg" alt="" title=""/></a>
+            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="" title=""/></a>
+            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-02.jpg" alt="" title=""/></a>
+            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-03.jpg" alt="" title=""/></a>
             <div class="j_slide_nav"></div>
         </div>
     </main>
@@ -23,7 +23,7 @@
                     <div class="pdt_gallery_list pdt_gallery_featured">
                         <?php
                             $pdt = "06";
-                            require "Themes/WdpShoes/Templates/product.php";
+                            require "{$configThemePath}/Templates/product.php";
                         ?>
                     </div>
 
@@ -31,21 +31,21 @@
                         <?php
                         $pdt = 0;
                         for($pdt = 1; $pdt < 5; $pdt++){
-                            require "Themes/WdpShoes/Templates/product.php";
+                            require "{$configThemePath}/Templates/product.php";
                         }
                         ?>
                     </div>
                 </div>
 
                 <div class="pdt_gallery_normalize">
-                    <img class="pdt_gallery_item pdt_gallery_banner" src="Uploads/featured-01.jpg" alt="">
+                    <img class="pdt_gallery_item pdt_gallery_banner" src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="">
                 </div>
 
                 <div class="pdt_gallery_normalize flex">
                     <?php
                     $pdt = 0;
                     for($pdt = 5; $pdt < 9; $pdt++){
-                        require "Themes/WdpShoes/Templates/product.php";
+                        require "{$configThemePath}/Templates/product.php";
                     }
                     ?>
                 </div>
@@ -68,14 +68,14 @@
                             <div class="pdt_gallery_list pdt_gallery_featured">
                                 <?php
                                     $pdt = "15";
-                                    require "Themes/WdpShoes/Templates/product.php";
+                                    require "{$configThemePath}/Templates/product.php";
                                 ?>
                             </div>
                             <div class="pdt_gallery_list flex">
                                 <?php
                                 $pdt = 0;
                                 for ($pdt = 11; $pdt < 15; $pdt++) {
-                                    require "Themes/WdpShoes/Templates/product.php";
+                                    require "{$configThemePath}/Templates/product.php";
                                 }
                                 ?>
                             </div>
@@ -94,7 +94,7 @@
                                 <?php
                                 $pdt = 0;
                                 for ($pdt = 5; $pdt < 9; $pdt++) {
-                                    require "Themes/WdpShoes/Templates/product.php";
+                                    require "{$configThemePath}/Templates/product.php";
                                 }
                                 ?>
                             </div>
@@ -113,7 +113,7 @@
                 <div class="flex">
                     <?php
                     for ($b = 1; $b < 7; $b++) {
-                        require "Themes/WdpShoes/Templates/blog.php";
+                        require "{$configThemePath}/Templates/blog.php";
                     }
                     ?>
                 </div>
