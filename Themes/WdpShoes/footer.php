@@ -23,7 +23,7 @@
                     <?php
                     for($mm = 1; $mm < 6; $mm++){
                         ?>
-                        <a href="#" title="">Link de rodapé <?= "{$m}/{$mm}"; ?></a>
+                        <a href="<?= $configBase; ?>" title="">Link de rodapé <?= "{$m}/{$mm}"; ?></a>
                         <?php
                     }
                     ?>

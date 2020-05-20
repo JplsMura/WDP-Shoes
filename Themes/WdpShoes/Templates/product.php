@@ -1,8 +1,8 @@
 <article class="pdt_gallery_item flex-2">
-    <a href="<?= "{$configBase}/produto"; ?>" alt="" title=""><img alt="" title="" src="<?= $configBase; ?>/Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg"/></a>
+    <a href="<?= $configBase; ?>/produto" alt="" title=""><img alt="" title="" src="<?= $configBase; ?>/Uploads/products/<?= str_pad($pdt, 2, 0, STR_PAD_LEFT); ?>.jpg"/></a>
 
     <header class="pdt_gallery_item_desc">
-        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="<?= "{$configBase}/produto"; ?>" alt="" title="">Calça Confort Mama Latina</a></h2>
+        <h2 class="pdt_gallery_item_desc_title"><a class="transition" href="<?= $configBase; ?>/produto" alt="" title="">Calça Confort Mama Latina</a></h2>
         <div class="pdt_gallery_item_desc_price">
             <p><b>R$ 59,90</b> <span>R$ 99,99</span></p>
         </div>

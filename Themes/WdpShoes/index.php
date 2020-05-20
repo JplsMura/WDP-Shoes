@@ -4,9 +4,9 @@
     <main class="main_content">
 
         <div class="main_content_slide j_slide">
-            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="" title=""/></a>
-            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-02.jpg" alt="" title=""/></a>
-            <a href="#" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-03.jpg" alt="" title=""/></a>
+            <a href="<?= $configBase; ?>/produto>" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="" title=""/></a>
+            <a href="<?= $configBase; ?>/produto" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-02.jpg" alt="" title=""/></a>
+            <a href="<?= $configBase; ?>/produto" class="j_slide_item" title=""><img src="<?= $configBase; ?>/Uploads/featured-03.jpg" alt="" title=""/></a>
             <div class="j_slide_nav"></div>
         </div>
     </main>
@@ -38,7 +38,9 @@
                 </div>
 
                 <div class="pdt_gallery_normalize">
-                    <img class="pdt_gallery_item pdt_gallery_banner" src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="">
+                    <a href="<?= $configBase; ?>/produto">
+                        <img class="pdt_gallery_item pdt_gallery_banner" src="<?= $configBase; ?>/Uploads/featured-01.jpg" alt="">
+                    </a>
                 </div>
 
                 <div class="pdt_gallery_normalize flex">
