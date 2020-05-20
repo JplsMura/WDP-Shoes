@@ -26,7 +26,45 @@
 
             <!--            CHECKOUT-->
             <div class="main_product_checkout">
-                Checkout;
+                <p class="main_product_checkout_stars"><?= str_repeat("<span class='icon-star-e icon-notext'></span>", 5); ?></p>
+                <h1 class="main_product_checkout_title">Top Gonew c/ Bojo Removível Mármore Tule Média Sustentação - Estampado</h1>
+                <p class="main_product_checkout_headline">
+                    Exercite-se com estilo usando o Top Gonew Mármore Detalhe Tule! Trazendo um design moderno e uma estampa exclusiva...
+                    <b class="j_anchor" data-anchor=".main_product_description">ver mais</b>
+                </p>
+
+                <p class="main_product_checkout_price">R$ 59,00 <span>R$ 79,00</span></p>
+                <p class="main_product_checkout_economy">Economia de R$ 20,00 (25%)</p>
+                <p class="main_product_checkout_parcels">Em até 4x de 14,75</p>
+
+                <!--                FORMULARIO DO CARRINHO-->
+                <form class="main_product_checkout_cart">
+                    <h2>Selecione o <b>tamanho:</b></h2>
+                    <span class="radius transition">P</span>
+                    <span class="radius transition">M</span>
+                    <span class="radius transition">G</span>
+                    <span class="radius transition">GG</span>
+
+                    <div class="main_product_checkout_cart_act">
+                        <div class="radius">
+                            <span class="icon-plus icon-notext"></span>
+                            <input type="text" value="1"/>
+                            <span class="icon-minus icon-notext"></span>
+                        </div>
+                        <button class="btn icon-cart radius transition">COMPRAR</button>
+                    </div>
+
+                </form>
+
+                <!--                PRODUTOS RELACIONADOS-->
+                <aside class="main_product_checkout_related">
+                    <h2>Outras <b>cores:</b></h2>
+                    <div>
+                        <a class="radius transition active"><img src="<?= $configBase; ?>/Uploads/products/16-1.jpg" alt="" title=""/></a>
+                        <a class="radius transition"><img src="<?= $configBase; ?>/Uploads/products/17-1.jpg" alt="" title=""/></a>
+                    </div>
+                </aside>
+
             </div>
         </article>
     </div>
