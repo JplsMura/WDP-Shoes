@@ -1,4 +1,6 @@
 <?php
+ob_start();
+
 define("BASE", "https://localhost/wdp/wdp-project");
 define("THEME", "WdpShoes");
 define("THEME_PATH", __DIR__ . "/Themes/" . THEME);
@@ -39,7 +41,7 @@ $configSiteName = "WdpShoes";
         $configSearch = filter_input(INPUT_POST, "s", FILTER_DEFAULT);
         if (!empty($configSearch)) {
             $search = strip_tags(trim($configSearch));
-            header("Location: {$configBase}/pesquisar/{$search}");
+            header("Location: {$configBase}/pesquisa/{$search}");
         }
 
         //        HEADER
@@ -76,3 +78,4 @@ $configSiteName = "WdpShoes";
 </body>
 
 </html>
+<?php ob_end_flush();?>
